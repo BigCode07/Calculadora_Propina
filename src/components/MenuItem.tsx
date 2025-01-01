@@ -1,9 +1,8 @@
-import type { MenuItem, MenuItem, OrderItem } from "../types";
-import { menuItems } from '../data/db';
+import type { MenuItem } from "../types";
 
 type MenuItemProps = {
   item: MenuItem;
-  addItem: (item:MenuItem) => void;
+  addItem: (item: MenuItem) => void;
 };
 
 export default function MenuItem({ item, addItem }: MenuItemProps) {
